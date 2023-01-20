@@ -1,4 +1,4 @@
-name: Python application test with Github Actions
+name: Flask Change Microservice Test
 on: [push]
 jobs:
   build:
@@ -6,21 +6,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v2
       with:
         python-version: 3.8
     - name: Install dependencies
       run: |
         make install
-    - name: Lint with pylint
+    - name: Lint
       run: |
         make lint
-    - name: Test with pytest
+    - name: Test
       run: |
         make test
-    - name: Format code
-      run: |
-        make format
-    - name: Build Container
-      run: |
-        make build
