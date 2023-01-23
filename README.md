@@ -25,6 +25,7 @@ A workflow is a configurable automated process that will run one or more jobs. W
 
 ### 3. Add requirements.txt
 Requirement. txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project. It also stores all files and packages on which that project is dependent or requires to run. Here are the packages I will use for this project:
+
 <img width="170" alt="Screen Shot 2023-01-23 at 3 27 03 PM" src="https://user-images.githubusercontent.com/112274822/214142962-14eeb46d-8412-4dcf-ada4-f69b78455b47.png">
 
 ### 4. Create a Makefile
@@ -39,7 +40,7 @@ A makefile is a special file that lists a set of rules for compiling a project. 
 <img width="846" alt="Screen Shot 2023-01-23 at 1 50 21 PM" src="https://user-images.githubusercontent.com/112274822/214144078-ab4c1c7e-32cb-4bf5-931a-81aea108ee64.png">
 *<img width="1477" alt="Screen Shot 2023-01-23 at 1 48 44 PM" src="https://user-images.githubusercontent.com/112274822/214144210-5b5bf34c-1261-492a-b2f8-7408eb66cf3f.png">
 
-* Usage of example (Test the URL): https://helenyjx-special-journey-45r9g9p97p9h97x-8000.preview.app.github.dev/?weight=55&height=167
+* Usage of example (Test the URL): https://helenyjx-special-journey-45r9g9p97p9h97x-8000.preview.app.github.dev/?weight=50&height=160
 <img width="842" alt="Screen Shot 2023-01-23 at 1 49 25 PM" src="https://user-images.githubusercontent.com/112274822/214144545-bcdf2e84-1665-49c2-8039-e725c4fa2926.png">
 <img width="958" alt="Screen Shot 2023-01-23 at 1 49 50 PM" src="https://user-images.githubusercontent.com/112274822/214144547-4ccfd245-660d-4f4a-9641-c9717acc10a1.png">
 <img width="987" alt="Screen Shot 2023-01-23 at 1 49 10 PM" src="https://user-images.githubusercontent.com/112274822/214144548-0128ab0d-7008-4ab7-ba1a-38e45e878b16.png">
