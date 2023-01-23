@@ -6,9 +6,9 @@ format:
 	black app/*.py
 
 lint:
-	pylint --disable=R,C app/bmi.py
+	pylint --disable=R,C app/*.py
 
 test:
-	python -m pytest -vv --cov=app test.py
+	python -m pytest -vv --cov=app --cov=main app/test_*.py
 
 all: install lint test
