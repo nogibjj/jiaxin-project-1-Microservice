@@ -1,12 +1,7 @@
-# Project 1 Cloud Continuous Delivery of Microservice (Data Engineering Focused)
+# Project Practice Cloud Continuous Delivery of Microservice
 
 ## Key Objectives of Project
-In project 1, the purpose is to build cloud continuous delivery of Microservice in FlaskAPI through Data Engineering. I build a simple FlaskAPI based on BMI calculator, it is a reliable indicator of body fatness for most people. It is used to screen for weight categories that may lead to health problems. According to the formula of the BMI, once the user type their heights and weights, the microservice will return their weight types such as "underweight", "overweight" and "healthy", and then give them related suggestions to maintain healthy bodies.
-
-## Structure Diagram
-
-
-## Demo Video Link
+The purpose is to build cloud continuous delivery of Microservice in FlaskAPI through Data Engineering. I build a simple FlaskAPI based on BMI calculator, it is a reliable indicator of body fatness for most people. It is used to screen for weight categories that may lead to health problems. According to the formula of the BMI, once the user type their heights and weights, the microservice will return their weight types such as "underweight", "overweight" and "healthy", and then give them related suggestions to maintain healthy bodies.
 
 
 ## Preparation
@@ -44,8 +39,3 @@ A makefile is a special file that lists a set of rules for compiling a project. 
 <img width="842" alt="Screen Shot 2023-01-23 at 1 49 25 PM" src="https://user-images.githubusercontent.com/112274822/214144545-bcdf2e84-1665-49c2-8039-e725c4fa2926.png">
 <img width="958" alt="Screen Shot 2023-01-23 at 1 49 50 PM" src="https://user-images.githubusercontent.com/112274822/214144547-4ccfd245-660d-4f4a-9641-c9717acc10a1.png">
 <img width="987" alt="Screen Shot 2023-01-23 at 1 49 10 PM" src="https://user-images.githubusercontent.com/112274822/214144548-0128ab0d-7008-4ab7-ba1a-38e45e878b16.png">
-
-### Use IaC (Infrastructure as Code) in CloudFormation at AWS to deploy code
-CloudFormation uses YAML or JSON, it is a popular cloud infrastructure automation tool coming from the IaaS giant AWS. It enables organizations to easily create, deploy and manage the AWS resource stack using a template or a text file that acts as a single source of truth.
-
-### Use AWS App Runner to deploy code
